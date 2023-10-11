@@ -1,0 +1,62 @@
+// @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+  // font-family: 'Fira Sans', sans-serif;
+  // font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #0d102a;
+  *{
+    color:#ccc;
+  }
+}
+
+.app{
+  padding:3rem 1rem;
+
+  .sidebar{
+    position: relative;
+    gap:1.5rem;
+    margin-bottom:4rem;
+
+    .navs{
+      display: none;
+    }
+  }
+}
+
+
+
+@media only screen and (min-width:1024px){
+  .app{
+    width:85%;
+    margin: auto;
+    padding:0 0 3.5rem;
+
+    .sidebar{
+      width:24rem;
+      position: fixed;
+      min-height: 100vh;
+      gap:3rem;
+      margin-bottom:0;
+      padding:3.5rem 0;
+      // border:1px solid blue;
+
+      .navs{
+        display:flex;
+        flex-direction: column;
+        gap:1rem;
+        
+        .active{
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

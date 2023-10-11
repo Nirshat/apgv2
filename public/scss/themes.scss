@@ -1,0 +1,40 @@
+
+.lightbg{
+  background-color: #fefefe;
+  *{
+    color:#444;
+  }
+}
+
+.darkbg{
+  background-color: #fefefe;
+  *{
+    color:#444;
+  }
+}
+
+.hl{
+  color: #fcfcfc;
+}
+
+.hl2{
+  color:#5ca914;
+}
+
+
+
+.box{
+  background: rgba(14, 41, 76, 0.25);
+  background: rgba(18, 52, 97, 0.25);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius:5px;
+  border: 1px solid rgba(25, 64, 130, 0.18);
+  padding:1rem;
+  transition: .2s ease-in-out;
+}
+
+.box:hover{
+  box-shadow: 0 8px 32px 0 rgba(31, 69, 135, 0.37);
+  box-shadow: 0 8px 24px 0 rgba(23, 113, 141, 0.37);
+}

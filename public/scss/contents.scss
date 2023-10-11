@@ -1,0 +1,35 @@
+
+
+.contentbox{
+  display:flex;
+  flex-direction: column;
+  gap:2rem;
+
+  .holder{
+    display: none;
+  }
+
+}
+
+
+@media only screen and (min-width:1024px){
+  .contentbox{
+    display:grid;
+    grid-template-columns: auto 1fr;
+    gap:3.5rem;
+
+    .holder{
+      display:block;
+      // border:1px solid red;
+    }
+
+    .contents{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .active-content{
+      padding:3.5rem 0 0;
+    }
+  }
+}
