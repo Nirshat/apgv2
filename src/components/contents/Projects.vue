@@ -7,9 +7,9 @@
     >
       <div class="flex flex-row justify-between">
         <div class="flex flex-row gap-3">
-          <img :src="project.prev" alt="" class="rounded h-12 w-20">
+          <img :src="`${thumbnail}${project.prev}`" alt="" class="rounded h-12 w-20">
           <div class="flex flex-col">
-            <a v-if="project.links.demo !== '' " target="_blank" :href="project.links.demo" class="hover:-rotate-2 ease-linear duration-100" :class="mhl">
+            <a v-if="project.links.demo !== '' " target="_blank" :href="project.links.demo" class="hover:-rotate-1 ease-linear duration-100" :class="mhl">
               {{ project.name }}
               <i class="fa-solid fa-arrow-up-right-from-square text-sm" :class="mhl"></i>
             </a>
@@ -62,6 +62,7 @@ export default {
   },
   data() {
     return{
+      thumbnail: "https://nirshat.github.io/assets/projects-thumbnails/",
       mhl: 'text-lime-400 font-semibold',
       hl: 'text-slate-300 font-semibold',
       hl2: 'text-slate-50',
