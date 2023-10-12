@@ -24,8 +24,8 @@
         <a
           :href="`#${nav.id}`"
           @click="navs.navigate(nav.id)"
-          class="py-1 uppercase hover:text-slate-100 text-sm"
-          :class="nav.id == navs.active ? 'text-lime-400 font-semibold hover:text-lime-400' : 'text-slate-400'"
+          class="py-1 uppercase text-sm"
+          :class="nav.id == navs.active ? `${mhl} hover:${mhl}` : 'text-slate-400 hover:text-slate-100'"
         >
           {{ nav.name }}
         </a>
@@ -61,6 +61,9 @@ export default {
         {name: "fa-brands fa-linkedin", src: "https://www.linkedin.com/in/apg-1101yj"},
         {name: "fa-solid fa-file-lines", src: "https://nirshat.github.io/assets/apg-cv.pdf"},
       ],
+      mhl: 'text-lime-400 font-semibold',
+      hl: 'text-slate-300 font-semibold',
+      hl2: 'text-slate-200',
     };
   },
   setup() {
