@@ -21,7 +21,7 @@
       </div>
 
 
-      <p class="text-slate-400 text-sm">
+      <p class="text-slate-400 text-sm text-center lg:text-start">
         Developed with 💚 by yours truly. Set-up with <span :class="hl2">Vite.js</span>, built with <span :class="hl2">Vue.js</span>, <span :class="hl2">Pinia</span>, <span :class="hl2">Tailwind css</span>, 
         <span :class="hl2">Sass</span>. All rights reserved.
       </p>

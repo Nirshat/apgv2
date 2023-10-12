@@ -3,7 +3,12 @@
     <div class="flex flex-col gap-1">
       <span class="text-3xl font-semibold hl">Aron Paul Gonzales</span>
       <span class="text-lg hl">React & Vue.js Developer</span>
-      <p>non-stop grinding to be more valuable developer. Currently learning Vue.js 🔥</p>
+      <div class="flex flex-col mt-3">
+        <span class="text-sm text-green-300">Status:</span>
+        <span> • non-stop grinding 🔥 </span>
+        <span> • job hunting 👀</span>
+        <span> • currently learning Vue.js</span>
+      </div>
     </div>
 
     <div class="navs">
@@ -20,7 +25,7 @@
           :href="`#${nav.id}`"
           @click="navs.navigate(nav.id)"
           class="py-1 uppercase hover:text-slate-100 text-sm"
-          :class="nav.id == navs.active ? 'font-semibold text-lime-400' : 'text-slate-400'"
+          :class="nav.id == navs.active ? `${mhl} hover:${mhl}` : 'text-slate-400'"
         >
           {{ nav.name }}
         </a>
@@ -56,6 +61,9 @@ export default {
         {name: "fa-brands fa-linkedin", src: "https://www.linkedin.com/in/apg-1101yj"},
         {name: "fa-solid fa-file-lines", src: "https://nirshat.github.io/assets/apg-cv.pdf"},
       ],
+      mhl: 'text-lime-400 font-semibold',
+      hl: 'text-slate-300 font-semibold',
+      hl2: 'text-slate-200',
     };
   },
   setup() {
