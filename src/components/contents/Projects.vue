@@ -30,6 +30,7 @@
           <span
             v-for="(tech, index) in project.techs"
             class="bg-slate-800 text-sm py-1 px-2 rounded-md text-lime-400"
+            :key="index"
           >
             {{ tech }}
           </span>

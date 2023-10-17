@@ -16,7 +16,7 @@ export const useProjectStore = defineStore(
           name: 'ChefWeb',
           descr: 'is an online source website i developed for different categories of meals, recipes and cooking instructions. This project is part of my study in restful api`s and how to interact with it using axios.',
           techs: ['Rest API', 'React', 'TypeScript', 'Axios', 'Zustand', 'Tailwind', 'Sass'],
-          links: {github:'', demo:'https://nirshat.github.io/chefweb/'},
+          links: {github:'', demo:'https://chefweb.vercel.app/'},
           prev: 'chefweb.png'
         },
         {
