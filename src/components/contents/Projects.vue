@@ -16,7 +16,7 @@
             <span v-else :class="mhl">
               {{ project.name }}
             </span>
-            <span class="rounded text-sm">Front-end Development</span>
+            <span class="rounded text-sm">{{ project.type }}</span>
           </div>
         </div>
 
