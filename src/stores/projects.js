@@ -6,9 +6,17 @@ export const useProjectStore = defineStore(
     state: () => ({
       properties: [
         {
+          name: 'KanbanHub',
+          descr: 'is a task management tool app for recording and organizing projects. Each project features three status categories (To-Do, In-Progress, and Done) for efficient task management and project tracking.',
+          techs: ['React','TypeScript','Zustand','Tailwind'],
+          links: {github:'', demo:'https://kanbanhub.vercel.app/'},
+          prev: 'kanbanhub.jpg',
+          type: 'Frontend Development'
+        },
+        {
           name: 'Alumni Tracker',
           descr: 'is a web application system i developed for our capstone project. This app organizes the informations of alumni and allows the user to provide community updates to the alumni regarding with alumni events such as sports, reunions and etc.',
-          techs: ['Php', 'MySQL', 'DataTables', 'Bootstrap', 'Apex.js'],
+          techs: ['Php', 'MySQL', 'DataTables', 'Bootstrap', 'ApexCharts.js'],
           links: {github:'', demo:''},
           prev: 'ac-dash.png',
           type: 'Fullstack Development'
@@ -29,14 +37,14 @@ export const useProjectStore = defineStore(
           prev: 'expense.png',
           type: 'Frontend Development'
         },
-        {
-          name: 'ToDo List',
-          descr: 'is a minimalist task manager designed to declutter your to-do list and enhance your productivity. With this clean and simple interface helps you to create and complete tasks with ease, all while keeping your schedule organized.',
-          techs: ['Vite.js', 'React', 'TypeScript', 'Bootstrap', 'MUI'],
-          links: {github:'', demo:'https://nirshat.github.io/to-do-list/'},
-          prev: 'todo.png',
-          type: 'Frontend Development'
-        },
+        // {
+        //   name: 'ToDo List',
+        //   descr: 'is a minimalist task manager designed to declutter your to-do list and enhance your productivity. With this clean and simple interface helps you to create and complete tasks with ease, all while keeping your schedule organized.',
+        //   techs: ['Vite.js', 'React', 'TypeScript', 'Bootstrap', 'MUI'],
+        //   links: {github:'', demo:'https://nirshat.github.io/to-do-list/'},
+        //   prev: 'todo.png',
+        //   type: 'Frontend Development'
+        // },
         {
           name: 'MovPicHub',
           descr: 'is a straightforward and streamlined website that utilizes API calls to dynamically generate and display movie posters based on your search queries.',
