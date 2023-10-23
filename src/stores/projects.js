@@ -37,14 +37,6 @@ export const useProjectStore = defineStore(
           prev: 'expense.png',
           type: 'Frontend Development'
         },
-        // {
-        //   name: 'ToDo List',
-        //   descr: 'is a minimalist task manager designed to declutter your to-do list and enhance your productivity. With this clean and simple interface helps you to create and complete tasks with ease, all while keeping your schedule organized.',
-        //   techs: ['Vite.js', 'React', 'TypeScript', 'Bootstrap', 'MUI'],
-        //   links: {github:'', demo:'https://nirshat.github.io/to-do-list/'},
-        //   prev: 'todo.png',
-        //   type: 'Frontend Development'
-        // },
         {
           name: 'MovPicHub',
           descr: 'is a straightforward and streamlined website that utilizes API calls to dynamically generate and display movie posters based on your search queries.',
@@ -73,3 +65,13 @@ export const useProjectStore = defineStore(
     }),
   }
 )
+
+
+// {
+//   name: 'ToDo List',
+//   descr: 'is a minimalist task manager designed to declutter your to-do list and enhance your productivity. With this clean and simple interface helps you to create and complete tasks with ease, all while keeping your schedule organized.',
+//   techs: ['Vite.js', 'React', 'TypeScript', 'Bootstrap', 'MUI'],
+//   links: {github:'', demo:'https://nirshat.github.io/to-do-list/'},
+//   prev: 'todo.png',
+//   type: 'Frontend Development'
+// },
