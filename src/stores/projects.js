@@ -14,20 +14,20 @@ export const useProjectStore = defineStore(
           type: 'Frontend Development'
         },
         {
-          name: 'Alumni Tracker',
-          descr: 'is a web application system i developed for our capstone project. This app organizes the informations of alumni and allows the user to provide community updates to the alumni regarding with alumni events such as sports, reunions and etc.',
-          techs: ['Php', 'MySQL', 'DataTables', 'Bootstrap', 'ApexCharts.js'],
-          links: {github:'', demo:''},
-          prev: 'ac-dash.png',
-          type: 'Fullstack Development'
-        },
-        {
           name: 'ChefWeb',
           descr: 'is an online source website i developed for different categories of meals, recipes and cooking instructions. This project is part of my study in restful api`s and how to interact with it using axios.',
           techs: ['Rest API', 'React', 'TypeScript', 'Axios', 'Zustand', 'Tailwind', 'Sass'],
           links: {github:'', demo:'https://chefweb.vercel.app/'},
           prev: 'chefweb.png',
           type: 'Rest API with Frontend'
+        },
+        {
+          name: 'Alumni Tracker',
+          descr: 'is a web application system i developed for our capstone project. This app organizes the informations of alumni and allows the user to provide community updates to the alumni regarding with alumni events such as sports, reunions and etc.',
+          techs: ['Php', 'MySQL', 'DataTables', 'Bootstrap', 'ApexCharts.js'],
+          links: {github:'', demo:''},
+          prev: 'ac-dash.png',
+          type: 'Fullstack Development'
         },
         {
           name: 'Expense Tracker',

@@ -28,7 +28,7 @@
       <span v-for="(tech, index) in maintechs" :class="hl">{{
         tech + ", "
       }} </span> <span :class="hl">Postman. </span>
-      And here are some other technologies that i have used:
+      And here are some other technologies that i have used/experience:
       <span v-for="(tech, index) in othertechs" :class="hl">{{
         tech + ", "
       }}</span> <span :class="hl">GitHub. </span>

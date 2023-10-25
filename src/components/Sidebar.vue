@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col sidebar">
     <div class="flex flex-col gap-1">
-      <span class="text-3xl font-semibold hl">Aron Paul Gonzales</span>
+      <span class="text-3xl md:text-4xl font-bold hl">Aron Paul Gonzales</span>
       <span class="text-lg hl">React & Vue.js Developer</span>
       <div class="flex flex-col mt-3">
         <span class="text-sm text-green-300">Status:</span>
